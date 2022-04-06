@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#00838f</color>
+  <color name="colorPrimaryRed">#ff5252</color>
+  <color name="colorPrimaryDark">#00838f</color>
+  <color name="colorAccent">#ff8a65</color>
+  <color name="colorWhite">#ffff</color>
+  <color name="colorTransparent">#00000000</color>
+  <color name="colorCancel">#ef5350</color>
+  <color name="colorListViewBackground">#efefef</color>
+  <color name="colorListViewItemDeleted">#9e9e9e</color>
+  <color name="colorListViewItemDefault">#fff</color>
+  <color name="colorListViewItemOk">#ccff90</color>
+  <color name="colorListViewItemFault">#ffe57f</color>
+  <color name="colorListViewItemWeight">#b2ebf2</color>
+  
+</resources>

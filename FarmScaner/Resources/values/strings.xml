@@ -1,0 +1,59 @@
+<resources>
+  <string name="Intent_ACTION">com.FarmScaner.ACTION</string>
+  <string name="Intent_BaseExtraKey">com.symbol.datawedge.data_string</string>
+  <string name="Authority_Main">com.MAJOR.FarmScaner.provider</string>
+
+  <string name="no_internet_connenction">Отсутсвует подключение к инетрнету!</string>
+
+  <string name="app_name">FarmScaner</string>
+  <string name="app_caption">m² сканер</string>
+  <string name="AppVersion">Текущая версия приложения:</string>
+
+  <string name="HaveUpdate">Доступно обновление</string>
+  <string name="Question_DownloadUpdate">Для дальнейшей работы приложения, требуется скачать обновление. 
+  Скачать?</string>
+
+  <string name="action_settings">Settings</string>
+  <string name="do_connect">Подключится</string>
+  <string name="do_wait_connect">Идет подключение...</string>
+  <string name="on_try_to_exit">Нажмите еще раз для выхода</string>
+  <string name="btn_gotoscan">Сканировать перемещение</string>
+
+  <string name="btn_IsSnd">Отправка</string>
+  <string name="btn_IsRc">Получение</string>
+  <string name="btn_IsCreate">Создание</string>
+  <string name="btn_IsInv">Инвентаризация</string>
+
+  <string name="lbl_SndDate">Дата:</string>
+  <string name="lbl_MoveType">Тип движения</string>
+  <string name="lbl_StorageFrom">Поставщик:</string>
+  <string name="lbl_StorageTo">Получатель:</string>
+  <string name="btn_StartScan">Продолжить</string>
+  <string name="save">Сохранить</string>
+  <string name="end_pucker">Завершить</string>
+  <string name="NotPossibleToFind">Не удалось найти</string>
+  <string name="ManualInput">Ручной ввод</string>
+
+  <string name="CountDialog_head">Укажите количество</string>
+  <string name="DoCancel">Отмена</string>
+  <string name="CountDialog_delete">Сбросить</string>
+  <string name="DoOk">Ок</string>
+
+  <string name="DownloadStarted">Загружается обновление</string>
+  <string name="MimeType_App">application/vnd.android.package-archive</string>
+  <string name="lvScan_Delete">Удалить</string>
+  <string name="lvScan_CancelDelete">Вернуть</string>
+
+  <string name="Question_AreYouSureExit">Вы уверены что хотите выйти? Все не сохраненные данные будут потеряны</string>
+  <string name="Question_SendMove">Отправить перемещение?</string>
+  <string name="Question_RecieveMove">Получить перемещение?</string>
+  <string name="Question_FinishInvertory">Завершить инвентаризацию?</string>
+  <string name="Question_DoLoad">Загрузить?</string>
+
+
+  <string name="Saved">Сохранено</string>
+  <string name="Error">Ошибка</string>
+  <string name="NothingToSave">Нечего сохранять</string>
+  <string name="HaveSavedData">Есть сохраненные данные</string>
+  
+</resources>

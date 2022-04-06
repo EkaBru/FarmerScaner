@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:id="@+id/CountDialog_lblArticleName"
+        android:text="Наименование"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+    <TextView
+        android:text="@string/CountDialog_head"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/CountDialog_CountDec"
+            android:src="@drawable/substract"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/colorTransparent"
+            android:scaleType="centerInside" />
+        <EditText
+            android:id="@+id/CountDialog_EdtCount"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+        <ImageButton
+            android:id="@+id/CountDialog_CountInc"
+            android:background="@color/colorTransparent"
+            android:src="@drawable/add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+</LinearLayout>
